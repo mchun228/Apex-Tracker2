@@ -4,11 +4,13 @@ import Profile from './components/Profile.vue';
 
 const routes = [
     {
-      path: '/search',
+      path: '/',
+      name: 'search',
       component: Search
     },
     {
-      path: '/profile',
+      path: '/profile/:platform/:gamertag',
+      name: 'profile',
       component: Profile
     },
   ];
