@@ -17,7 +17,7 @@
   
   <style scoped>
   img {
-    width: 300px;
+    width: 400px;
   }
   
   @media (max-width: 700px) {
