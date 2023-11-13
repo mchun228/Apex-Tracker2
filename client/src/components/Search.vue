@@ -47,6 +47,7 @@
             icon: "exclamation-circle"
           });
         } else {
+          console.log('will redirect');
           this.$router.push(`/profile/${this.platform}/${this.gamertag}`);
         }
       }
