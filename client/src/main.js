@@ -1,12 +1,13 @@
-import { VueElement, createApp } from 'vue';
+import { createApp } from 'vue';
 import App from './App.vue';
 const app = createApp(App);
 import router from './router';
-import Toasted from 'vue-toasted';
+//import Toasted from 'vue-toasted';
 
-VueElement.use(Toasted, {
-    iconPack: 'fontawesome'
-}); 
+//app.use(Toasted, {
+ //   iconPack: 'fontawesome'
+//});
+
 app.use(router);
 
 

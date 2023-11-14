@@ -2,17 +2,20 @@
   <div class="container">
     <AppHeader />
     <Search />
+    <Profile />
   </div>
 </template>
 
 <script>
 import AppHeader from "./components/Header";
 import Search from "./components/Search";
+import Profile from "./components/Profile";
 export default {
   name: "app",
   components: {
     AppHeader,
-    Search
+    Search,
+    Profile
   }
 };
 </script>
